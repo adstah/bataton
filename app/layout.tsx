@@ -8,6 +8,7 @@ const inter = Inter({ subsets: ["latin"] });
 global.performance = global.performance || {
   now: () => new Date().getTime(),
 };
+//
 
 export const metadata: Metadata = {
   title: "Create Next App",
